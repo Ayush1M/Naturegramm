@@ -10,7 +10,7 @@ function getPostHtml(){
         postHtml+= `
         
         <div class="post">
-        <div>
+        <div class="post-header">
         <img src="${post.avatar}" alt="" class="post-logo">
         <div class="name-container">
         <p class="name-title">${post.name}</p>
@@ -19,12 +19,12 @@ function getPostHtml(){
         </div>
         <img src="${post.post}" alt="" class="post-img">
         <div class="icon-container">
-        <img>
-        <img>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-comment"></i>
         <img>
         </div>
         <p class="likes">${post.likes}</p>
-        <p class="description">${post.comment}</p>
+        <p class="description"> <strong>${post.name}</strong>  ${post.comment}</p>
         </div>
         `
         
