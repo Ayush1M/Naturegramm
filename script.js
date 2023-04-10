@@ -23,7 +23,7 @@ function getPostHtml(){
         <i class="fa-regular fa-comment"></i>
         <img>
         </div>
-        <p class="likes">${post.likes}</p>
+        <p class="likes">${post.likes} likes</p>
         <p class="description"> <strong>${post.name}</strong>  ${post.comment}</p>
         </div>
         `
