@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from "https://jspm.dev/uuid";
+
 const posts = [
     {
         name: "Vincent",
@@ -6,7 +8,9 @@ const posts = [
         avatar: "images/vincent.png",
         post: "images/green-mountains.jpg",
         comment: "that place looks amazing!!",
-        likes: 21
+        likes: 21,
+        isLiked: false,
+        uuid: uuidv4()
     },
     {
         name: "Gustave",
@@ -15,7 +19,9 @@ const posts = [
         avatar: "images/gustave.png",
         post: "images/nature-walk.jpg",
         comment: "a dream place to be walking between the nature and admire the beauty.",
-        likes: 4
+        likes: 4,
+        isLiked: false,
+        uuid: uuidv4()
     },
         {
         name: "Joseph Ducreux",
@@ -24,7 +30,9 @@ const posts = [
         avatar: "images/joseph.png",
         post: "images/nature.jpg",
         comment: "nature always helps in reducing stress and helps to relax too.",
-        likes: 152
+        likes: 152,
+        isLiked: false,
+        uuid: uuidv4()
     }
 ]
 
