@@ -21,8 +21,10 @@ header{
     left: 0;
     right: 0;
     background-color: #fff;
-    box-shadow: 1px 1px 1.1em #000;
     padding: 1em;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
 }
 
 header, main{
@@ -42,11 +44,18 @@ header, main{
 }
 
 .post{
-    margin: 2em .4em;
+    margin: 2em 0;
+}
+
+.post-header,
+.icon-container,
+.likes,
+.description{
+    padding-left: .6em;
 }
 
 .post:first-child{
-    margin-top: 8em;
+    margin-top: 6em;
 }
 
 .post-logo{
@@ -70,9 +79,15 @@ header, main{
 }
 
 .fa-heart,
-.fa-comment{
+.fa-comment,
+.fa-paper-plane{
     font-size: 1.4em;
     margin-right: .25em;
     margin-top: .5em;
+    cursor: pointer;
+}
+
+.liked{
+    color: rgb(241, 54, 54);
 }
 
