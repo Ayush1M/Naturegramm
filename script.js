@@ -1,7 +1,7 @@
 import posts from './data.js'
 
 
-document.addEventListener("click", (e)=> {
+document.addEventListener("dblclick", (e)=> {
     if(e.target.dataset.like){
         handleLikeClick(e.target.dataset.like)
     }
