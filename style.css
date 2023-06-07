@@ -22,9 +22,8 @@ header{
     right: 0;
     background-color: #fff;
     padding: 1em;
-    border-bottom: 1px solid #dfdfdf;
     border-left: 1px solid #dfdfdf;
-    border-right: 1px solid #dfdfdf;
+    box-shadow: .2em .2em 2px #9b9b9b;
 }
 
 header, main{
@@ -35,6 +34,11 @@ header, main{
     min-width: 500px;
     margin: 0 auto;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.title{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 2em;
 }
 
 .logo-img{
@@ -85,6 +89,12 @@ header, main{
     margin-right: .25em;
     margin-top: .5em;
     cursor: pointer;
+}
+
+.fa-heart:hover,
+.fa-comment:hover,
+.fa-paper-plane:hover{
+    opacity: .4;
 }
 
 .liked{
