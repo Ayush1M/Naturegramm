@@ -13,6 +13,7 @@ Naturegramm is a collection of wide variety of photos of nature. I have added th
 
 ## Screenshot
 
+<p align="center"><img width="350px" src="./images/screenshot.png" /></p>
 
 ## Technologies I Used
 * Semantic HTML5
