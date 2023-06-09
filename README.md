@@ -9,7 +9,7 @@
  
 # Overview of the Project
 
-Naturegramm is a collection of wide variety of photos of nature with the features to like the picture and comment on the particular picture.
+Naturegramm is a collection of wide variety of photos of nature. I have added the feature to like a particular photo when double cliked and render all the images which is to be shown.
 
 ## Screenshot
 
